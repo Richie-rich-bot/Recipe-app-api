@@ -141,3 +141,7 @@ AUTH_USER_MODEL = 'core.User'
 # REST_FRAMEWORK = {
 #     'DEFAULT_SCHEMA_CLASS': 'drf-spectacular.openai.AutoSchema',
 # }
+
+SPECTACULAR_SETTINGS = {
+    'COMPONENT_SPLIT_REQUEST': True,
+}
